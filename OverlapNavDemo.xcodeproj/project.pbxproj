@@ -12,6 +12,10 @@
 		E53EEF1A21E46D4000B870D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53EEF1821E46D4000B870D4 /* Main.storyboard */; };
 		E53EEF1C21E46D4200B870D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53EEF1B21E46D4200B870D4 /* Assets.xcassets */; };
 		E53EEF1F21E46D4200B870D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53EEF1D21E46D4200B870D4 /* LaunchScreen.storyboard */; };
+		E53EEF2821E46DEE00B870D4 /* NewNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53EEF2721E46DEE00B870D4 /* NewNavController.swift */; };
+		E53EEF2A21E46E6D00B870D4 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53EEF2921E46E6D00B870D4 /* NewViewController.swift */; };
+		E53EEF2D21E46F2B00B870D4 /* CustomPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53EEF2C21E46F2B00B870D4 /* CustomPresentController.swift */; };
+		E53EEF2F21E46F5E00B870D4 /* CustomDismissController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53EEF2E21E46F5E00B870D4 /* CustomDismissController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E53EEF1B21E46D4200B870D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53EEF1E21E46D4200B870D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53EEF2021E46D4200B870D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53EEF2721E46DEE00B870D4 /* NewNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNavController.swift; sourceTree = "<group>"; };
+		E53EEF2921E46E6D00B870D4 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		E53EEF2C21E46F2B00B870D4 /* CustomPresentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentController.swift; sourceTree = "<group>"; };
+		E53EEF2E21E46F5E00B870D4 /* CustomDismissController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDismissController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		E53EEF1321E46D4000B870D4 /* OverlapNavDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E53EEF2B21E46EEB00B870D4 /* CustomTransition */,
+				E53EEF2621E46DC900B870D4 /* NewNav */,
 				E53EEF1421E46D4000B870D4 /* AppDelegate.swift */,
 				E53EEF1621E46D4000B870D4 /* ViewController.swift */,
 				E53EEF1821E46D4000B870D4 /* Main.storyboard */,
@@ -62,6 +72,24 @@
 				E53EEF2021E46D4200B870D4 /* Info.plist */,
 			);
 			path = OverlapNavDemo;
+			sourceTree = "<group>";
+		};
+		E53EEF2621E46DC900B870D4 /* NewNav */ = {
+			isa = PBXGroup;
+			children = (
+				E53EEF2721E46DEE00B870D4 /* NewNavController.swift */,
+				E53EEF2921E46E6D00B870D4 /* NewViewController.swift */,
+			);
+			path = NewNav;
+			sourceTree = "<group>";
+		};
+		E53EEF2B21E46EEB00B870D4 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				E53EEF2C21E46F2B00B870D4 /* CustomPresentController.swift */,
+				E53EEF2E21E46F5E00B870D4 /* CustomDismissController.swift */,
+			);
+			path = CustomTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53EEF2821E46DEE00B870D4 /* NewNavController.swift in Sources */,
 				E53EEF1721E46D4000B870D4 /* ViewController.swift in Sources */,
 				E53EEF1521E46D4000B870D4 /* AppDelegate.swift in Sources */,
+				E53EEF2A21E46E6D00B870D4 /* NewViewController.swift in Sources */,
+				E53EEF2D21E46F2B00B870D4 /* CustomPresentController.swift in Sources */,
+				E53EEF2F21E46F5E00B870D4 /* CustomDismissController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
