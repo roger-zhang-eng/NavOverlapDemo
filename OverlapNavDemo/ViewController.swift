@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let nextVC = storyboard.instantiateViewController(withIdentifier: "nextView") as! NewViewController
+        
+
         let nextNav = NewNavController(rootViewController: nextVC)
         nextNav.transitioningDelegate = self
         nextNav.modalPresentationStyle = .custom

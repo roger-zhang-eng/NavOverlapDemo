@@ -1,30 +1,27 @@
 //
-//  NewViewController.swift
+//  ThirdViewController.swift
 //  OverlapNavDemo
 //
-//  Created by Roger Zhang on 8/1/19.
+//  Created by Roger Zhang on 9/1/19.
 //  Copyright © 2019 Roger Zhang. All rights reserved.
 //
 
 import UIKit
 
-class NewViewController: UIViewController {
+class ThirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let cancelButton = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(cancelButtonTapped))
+        self.navigationItem.leftBarButtonItem = cancelButton
     }
     
+    @objc func cancelButtonTapped() {
+        self.dismiss(animated: true, completion: nil)
+    }
 
-    @IBAction func backAction(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-    @IBAction func popupAction(_ sender: UIBarButtonItem) {
-        debugPrint("trigger next view")
-        performSegue(withIdentifier: "thirdViewSegue", sender: nil)
-    }
     /*
     // MARK: - Navigation
 

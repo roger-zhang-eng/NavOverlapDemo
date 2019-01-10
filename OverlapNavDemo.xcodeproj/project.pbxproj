@@ -16,6 +16,7 @@
 		E53EEF2A21E46E6D00B870D4 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53EEF2921E46E6D00B870D4 /* NewViewController.swift */; };
 		E53EEF2D21E46F2B00B870D4 /* CustomPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53EEF2C21E46F2B00B870D4 /* CustomPresentController.swift */; };
 		E53EEF2F21E46F5E00B870D4 /* CustomDismissController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53EEF2E21E46F5E00B870D4 /* CustomDismissController.swift */; };
+		E5479E3621E562DB00CC0E6B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5479E3521E562DB00CC0E6B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E53EEF2921E46E6D00B870D4 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		E53EEF2C21E46F2B00B870D4 /* CustomPresentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentController.swift; sourceTree = "<group>"; };
 		E53EEF2E21E46F5E00B870D4 /* CustomDismissController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDismissController.swift; sourceTree = "<group>"; };
+		E5479E3521E562DB00CC0E6B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				E53EEF2721E46DEE00B870D4 /* NewNavController.swift */,
 				E53EEF2921E46E6D00B870D4 /* NewViewController.swift */,
+				E5479E3521E562DB00CC0E6B /* ThirdViewController.swift */,
 			);
 			path = NewNav;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				E53EEF2821E46DEE00B870D4 /* NewNavController.swift in Sources */,
 				E53EEF1721E46D4000B870D4 /* ViewController.swift in Sources */,
 				E53EEF1521E46D4000B870D4 /* AppDelegate.swift in Sources */,
+				E5479E3621E562DB00CC0E6B /* ThirdViewController.swift in Sources */,
 				E53EEF2A21E46E6D00B870D4 /* NewViewController.swift in Sources */,
 				E53EEF2D21E46F2B00B870D4 /* CustomPresentController.swift in Sources */,
 				E53EEF2F21E46F5E00B870D4 /* CustomDismissController.swift in Sources */,
